@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
